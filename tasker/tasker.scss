@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.back{
+    text-decoration: none;
+    font-size: 40px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    padding: 10px 13px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #000;
+    color: white;
+    transition: 0.5s;
+
+    &:hover{
+        border: 1px solid black;
+        color: black;
+        background-color: #fff;
+    }
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+
+    &__globalLink{
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+        margin: 10px 0;
+        transition: color 0.5s;
+
+        &:hover{
+            color: blue;
+        }
+    }
+}

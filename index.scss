@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #000;
+
+    a{
+        margin: 0 20px;
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+
+        &:hover{
+            color: blue;
+        }
+    }
+}
